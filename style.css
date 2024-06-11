@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #EEEBFF;
+    font-family: Roboto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    width: 100%;
+    gap: 90px;
+}
+
+.right {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid transparent;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.right>img {
+    width: 100px;
+    height: 200px;
+    padding-bottom: 50px;
+}
+
+.right>h1 {
+    padding-bottom: 30px;
+    line-height: 20px;
+}
+
+.right>p {
+    padding-bottom: 30px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.right>button {
+    background-color: #2ACE18;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    box-shadow: #2ACE18 0px 45px 90px 0px;
+    color: #fff;
+    font-weight: 600;
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+.wrong {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid transparent;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.wrong>img {
+    width: 80px;
+    height: 140px;
+    padding-top: 30px;
+
+}
+
+.wrong>h1 {
+    padding-top: 50px;
+    line-height: 60px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.wrong>p {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.wrong>button {
+    background-color: #E52F2B;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    box-shadow: #E52F2B 0px 45px 90px 0px;
+    color: #fff;
+    font-weight: 600;
+    font-family: Roboto;
+    font-size: 15px;
+}
